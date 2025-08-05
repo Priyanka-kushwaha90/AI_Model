@@ -1,0 +1,1361 @@
+{
+  "name": "BookBuddy",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 5,
+    "entities": 2,
+    "dialog_nodes": 27
+  },
+  "status": "Available",
+  "created": "2025-07-23T15:37:06.602Z",
+  "updated": "2025-07-23T15:37:06.602Z",
+  "language": "en",
+  "skill_id": "de6c70a4-3f38-4dfe-a6d2-ccc9406cac31",
+  "snapshot": "2",
+  "workspace": {
+    "created": "2025-07-23T15:37:06.602Z",
+    "intents": [
+      {
+        "intent": "Feedback",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "examples": [
+          {
+            "text": "awesome",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "bad recommendation",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "good",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "good recommendation",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "great",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "greate bookbubby",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "helpful",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "love it",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "love you bookbuddy",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "nice",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "not useful",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "superb book",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "thanks buddy",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "useless",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "waste of time",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "wonderful",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          }
+        ],
+        "description": "To capture the user’s opinion after a book recommendation and respond accordingly"
+      },
+      {
+        "intent": "goodbye",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "examples": [
+          {
+            "text": "bye",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "bye buddy",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "bye bye",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "See you later",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Talk to you soon",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Thanks, I’m done",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "That’s all for now",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Greeting",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "examples": [
+          {
+            "text": "good afternoon",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "good evening",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "good morning",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Hello",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "hello dear",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "hello my boobuddy",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "hello my book finder",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Hey",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Hey, how are you?",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Hey there!",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Hi",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Hi buddy",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "What’s up?",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          }
+        ],
+        "description": "This intent helps start the interaction on a positive note and guides the user toward what the chatbot can do."
+      },
+      {
+        "intent": "help",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "examples": [
+          {
+            "text": "help me budddy",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "help me dear",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "help me to fine book",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "hey! plz help me",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "suggest me book",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "suggest me good book",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "will you help me to find a book",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "SearchBookByTitle",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "examples": [
+          {
+            "text": "Can you describe the book Sapiens?",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Give me details of Atomic Habits",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Harry Potter and the Sorcerer's Stone summary please",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Is To Kill a Mockingbird worth reading?",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "I want to know more about The Book Thief",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "romance",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Show me details for The Silent Patient",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Tell me about The Alchemist",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "The Bible",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "The jungle book",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "The Mahabharata",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "The Ramayan",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "What is 1984 about?",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          },
+          {
+            "text": "Who wrote Pride and Prejudice?",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z"
+          }
+        ],
+        "description": "Handles user queries where they mention the title of a specific book they want information about"
+      }
+    ],
+    "updated": "2025-07-23T15:37:06.602Z",
+    "entities": [
+      {
+        "entity": "genre",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Comedy",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Crime",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              "criminal",
+              " detective story"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Drama",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              " character-driven",
+              "dramatic",
+              "emotional"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Fantasy",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              "adventure",
+              " magical"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "horror",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Mystery",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              "detective",
+              " suspense",
+              "thriller"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Non-fiction",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              "facts",
+              "real"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Poetry",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Romance",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              " couple story",
+              "love story",
+              "romantic"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Science Fiction",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              "futuristic, space",
+              "sci-fi"
+            ]
+          }
+        ],
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Mood",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Comforting",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              "relaxing"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Dramatic",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Emotional",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              "sad"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Feel-good",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              "happy"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "feeling bad",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Funny",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": [
+              "comedy"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "happy",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Hopeful",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "not good",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Romantic",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "sad",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Suspenseful",
+            "created": "2025-07-23T15:37:19.494Z",
+            "updated": "2025-07-23T15:37:19.494Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 5,
+          "entities": 2,
+          "dialog_nodes": 27
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "Welcome",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "Drama",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Drama it is! 🎭 Get ready for powerful emotions, deep characters, and gripping life stories. Here are some dramatic reads you might enjoy:\"\n\nA Thousand Splendid Suns by Khaled Hosseini\n\nThe Kite Runner by Khaled Hosseini\n\nThe Fault in Our Stars by John Green\n\nLittle Fires Everywhere by Celeste Ng\n\nNormal People by Sally Rooney\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_10_1752147197932",
+        "previous_sibling": "node_3_1752147083944"
+      },
+      {
+        "type": "standard",
+        "title": "happy",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Feel-Good Fiction\nUplifting stories with satisfying endings and lovable characters.\nExamples:\n\nThe Hundred-Year-Old Man Who Climbed Out the Window and Disappeared by Jonas Jonasson\n\nEleanor Oliphant Is Completely Fine by Gail Honeyman\n\nThe Flatshare by Beth O'Leary"
+                },
+                {
+                  "text": "Romantic Comedies\nLight, joyful love stories with humor and charm.\nExamples:\n\nThe Love Hypothesis by Ali Hazelwood\n\nBeach Read by Emily Henry\n\nTo All the Boys I’ve Loved Before by Jenny Han"
+                },
+                {
+                  "text": "Inspirational or Heartwarming Stories\nBooks that celebrate life, relationships, and personal growth.\nExamples:\n\nThe Alchemist by Paulo Coelho\n\nWonder by R.J. Palacio\n\nTuesdays with Morrie by Mitch Albom"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1752148848895",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@Mood",
+        "dialog_node": "node_10_1752149230413",
+        "previous_sibling": "node_8_1752149212735"
+      },
+      {
+        "type": "standard",
+        "title": "romance",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Love is in the air! 💖 If you're in the mood for heart-fluttering stories and emotional rollercoasters, here are some popular romance picks just for you:\"\n(followed by a list of romance book recommendations, e.g.,)\n\n->It Ends with Us by Colleen Hoover\n\n->The Love Hypothesis by Ali Hazelwood\n\n->Me Before You by Jojo Moyes\n\n->The Fault in Our Stars by John Green\n\n->Beach Read by Emily Henry"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_2_1752147027222",
+        "previous_sibling": "node_6_1752146764953"
+      },
+      {
+        "type": "standard",
+        "title": "Mystery",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Mystery, eh? 🕵️ Get ready for suspense, secrets, and shocking twists! Here are some gripping mystery novels you might enjoy:\"\n\n->Gone Girl by Gillian Flynn\n\n->The Girl with the Dragon Tattoo by Stieg Larsson\n\n->The Da Vinci Code by Dan Brown\n\n->Big Little Lies by Liane Moriarty\n\n->And Then There Were None by Agatha Christie"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_3_1752147083944",
+        "previous_sibling": "node_2_1752147027222"
+      },
+      {
+        "type": "standard",
+        "title": "Adventure",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Adventure awaits! 🌍✨ Get ready for thrilling journeys, daring heroes, and epic quests. Here are some adventurous reads you might love:\"\n\nThe Hobbit by J.R.R. Tolkien\n\nLife of Pi by Yann Martel\n\nThe Martian by Andy Weir\n\nTreasure Island by Robert Louis Stevenson\n\nInto the Wild by Jon Krakauer"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_3_1752147609143",
+        "previous_sibling": "node_4_1752147529473"
+      },
+      {
+        "type": "standard",
+        "title": "#searchbookbytitle",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"The Ramayana is one of the greatest epics of ancient India, traditionally attributed to the sage Valmiki. It tells the story of Lord Rama’s journey, his exile, the abduction of Sita by Ravana, and the triumph of good over evil. Would you like to read a translated version, a simplified retelling, or a children’s edition?\""
+                },
+                {
+                  "text": "\"The Mahabharata is one of the longest and most powerful epics of ancient India, centered on the great war between the Pandavas and the Kauravas. It contains deep philosophical insights, especially the Bhagavad Gita. Would you like a complete version, a simplified retelling, or a modern interpretation?\""
+                },
+                {
+                  "text": "The Jungle Book is a beloved collection of short stories written by Rudyard Kipling, centered around the adventures of Mowgli, a human boy raised by wolves in the Indian jungle. Alongside iconic animal characters like Baloo the bear, Bagheera the black panther, and Kaa the python, Mowgli learns the Law of the Jungle and faces the challenges of nature, survival, and identity."
+                },
+                {
+                  "text": "The Bible is the sacred scripture of Christianity, revered by billions of people around the world. It is a collection of ancient religious writings that span centuries, offering teachings, historical narratives, poetry, laws, prophecies, and moral guidance.\n\nThe Bible is divided into two main parts:\n\n📜 1. Old Testament (Hebrew Bible):\nContains the history of the Israelites, God's covenant with His people, and prophecies of the Messiah\n2. New Testament:\nFocuses on the life, teachings, death, and resurrection of Jesus Christ and the beginnings of the Christian Church."
+                },
+                {
+                  "text": "The Palace of Illusions is a modern retelling of the Indian epic Mahabharata, told from the unique and powerful perspective of Draupadi — the fire-born princess, wife to the five Pandava brothers, and one of the most complex female characters in Indian mythology.\n\nThis novel reimagines her life not just as a queen or pawn in a war of kingdoms, but as a woman with desires, choices, pain, and strength. From her birth in fire to her secret love for Karna, and her role in the Kurukshetra war, Draupadi narrates her journey with courage, insight, and rebellion.\n\nThe book also explores her relationship with Krishna, her inner conflicts, her pride, her vulnerability, and her longing for justice and meaning."
+                },
+                {
+                  "text": "Author: Devdutt Pattanaik\nGenre: Mythological Fiction, Indian Literature, Philosophical Fiction\nPublished: 2008\n\n📖 Description:\nThe Pregnant King is a bold and imaginative mythological novel that explores the blurred lines between gender, identity, duty, and desire in ancient India. Set in the Mahabharata era, it tells the story of King Yuvanashva, a ruler desperate for an heir. In a twist of fate, he accidentally drinks a magic potion meant for his queens—and becomes pregnant himself.\n\nWhat follows is a deeply philosophical and emotionally powerful tale that questions traditional gender roles, dharma (duty), and societal expectations.\n\nYuvanashva’s inner conflict — \"Do I become a father or a mother?\" — becomes a metaphor for broader questions about identity, power, and the human experience.\n\n🌟 Themes:\nGender identity and fluidity\n\nDharma (righteous duty) vs. personal truth\n\nPower, parenthood, and transformation\n\nAncient Indian myths through a modern lens\n\n📚 Why Read It?\nChallenges binary ideas of gender in a historical-mythical setting\n\nCombines rich Indian mythology with contemporary philosophical questions\n\nWritten in Devdutt Pattanaik’s accessible, insightful style with references to lesser-known stories from Hindu epics\n\n👤 Ideal For:\nReaders interested in Indian mythology with a modern twist\n\nThose exploring LGBTQ+ themes in literature\n\nFans of Devdutt Pattanaik’s other mythological works (like Jaya, Sita)\n\nThinkers who enjoy books that challenge norms and provoke thought\n\nWould you like suggestions for other mythological novels that explore identity, gender, or social roles, like The Pregnant King?\n"
+                },
+                {
+                  "text": "Author: Jane Austen\nGenre: Classic Literature, Romance, Social Commentary\nFirst Published: 1813\n\n📖 Description:\nPride and Prejudice is one of the most beloved novels in English literature, a timeless romantic comedy that offers sharp insight into society, class, and relationships in 19th-century England.\n\nThe story follows the intelligent and spirited Elizabeth Bennet, the second of five daughters in a middle-class family, as she navigates love, pride, and social expectations. When she meets the wealthy but aloof Mr. Fitzwilliam Darcy, sparks fly — but not in the way you'd expect.\n\nAs their worlds collide, both must confront their prejudices and overcome their pride to truly understand each other."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "#SearchBookByTitle",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_3_1752147833673",
+        "previous_sibling": "node_4_1753170549451"
+      },
+      {
+        "type": "standard",
+        "title": "Inspiring",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "elf-Help & Personal Growth\nBooks that motivate and empower the reader to improve their life.\nExamples:\n\nAtomic Habits by James Clear\n\nThe 7 Habits of Highly Effective People by Stephen R. Covey\n\nYou Are a Badass by Jen Sincero\n\n"
+                },
+                {
+                  "text": "Spiritual & Philosophical Inspiration\nBooks that explore purpose, peace, and self-awareness.\nExamples:\n\nThe Alchemist by Paulo Coelho\n\nThe Power of Now by Eckhart Tolle\n\n"
+                },
+                {
+                  "text": "Biographies & Memoirs\nReal-life stories of people who overcame obstacles and made an impact.\nExamples:\n\nBecoming by Michelle Obama\n\nI Am Malala by Malala Yousafzai\n\nEducated by Tara Westover"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1752148848895",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@Mood",
+        "dialog_node": "node_3_1752149163709",
+        "previous_sibling": "node_9_1752149018185"
+      },
+      {
+        "type": "standard",
+        "title": "goodbye",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Bye-bye, book explorer! 📖 Come back soon — the shelves are always open here!\""
+                },
+                {
+                  "text": "“Need more book ideas later? Just say 'Hi BookBuddy!' to start again.”"
+                },
+                {
+                  "text": "It was great helping you find books today. Have a wonderful day — and don’t forget, your next favorite story is just a message away!\""
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "#goodbye",
+        "dialog_node": "node_3_1753170073612",
+        "previous_sibling": "node_7_1752149795494"
+      },
+      {
+        "type": "standard",
+        "title": "comedy",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Looking for some laughs? 😄 Comedy books are a perfect way to lift your mood! Here are some hilarious reads to brighten your day:\"\n\nGood Omens by Neil Gaiman & Terry Pratchett\n\nBossypants by Tina Fey\n\nThe Rosie Project by Graeme Simsion\n\nCatch-22 by Joseph Heller\n\nMe Talk Pretty One Day by David Sedaris\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_4_1752147529473",
+        "previous_sibling": "node_5_1752147465078"
+      },
+      {
+        "type": "standard",
+        "title": "@mood",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Comedy Fiction\nLight, entertaining stories with witty narration or funny characters.\nExamples:\n\nThe Rosie Project by Graeme Simsion\n\nGood Omens by Neil Gaiman & Terry Pratchett\n\nThe Hitchhiker’s Guide to the Galaxy by Douglas Adams"
+                },
+                {
+                  "text": "Funny Memoirs & Essays\nReal-life stories or observations told in a humorous voice.\nExamples:\n\nBossypants by Tina Fey\n\nMe Talk Pretty One Day by David Sedaris\n\nIs Everyone Hanging Out Without Me? by Mindy Kaling"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@Mood",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_4_1752148848895",
+        "previous_sibling": "node_3_1752147833673"
+      },
+      {
+        "type": "standard",
+        "title": "#positive feedback",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"I'm so glad you liked it! 😊 Let me know if you'd like more suggestions.\""
+                },
+                {
+                  "text": "\"Awesome! That makes me happy to hear. 📚 Ready for another great read?\""
+                },
+                {
+                  "text": "Yay! I'm always here to help you find your next favorite book!\""
+                },
+                {
+                  "text": "\"Thank you! Your feedback means a lot. ❤️ Want more like that one?\""
+                },
+                {
+                  "text": "\"Great to hear! I'm here whenever you're ready for your next adventure in reading.\""
+                },
+                {
+                  "text": "\"Woohoo! I'm thrilled that worked out for you. Need another recommendation?\""
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1752149795494",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "#Feedback",
+        "dialog_node": "node_4_1752149888710"
+      },
+      {
+        "type": "standard",
+        "title": "help",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"No worries! I'm here to help you.\nwhat kind of book you want to read like--\nbased on \n->genre\n->mood\n->title"
+                },
+                {
+                  "text": "would you like to read book based on gener\nlike --\nromance \ndrama\nfantasy\netc."
+                },
+                {
+                  "text": "are you interested to read the book based on mood \nthen  type  mood like--\n sad \n happy \nmotivational\ninspiring \netc."
+                },
+                {
+                  "text": "  would you like to read  book based on title\nlike---\n the ramayana\nthe mahabharata\nthe jungle book etc"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "#help",
+        "dialog_node": "node_4_1753170549451",
+        "previous_sibling": "node_8_1752146732986"
+      },
+      {
+        "type": "standard",
+        "title": "Horror",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Brace yourself! 😱 You’ve entered the world of chills, thrills, and nightmares. Here are some top horror books that’ll keep you up at night:\"\n\nThe Shining by Stephen King\n\nMexican Gothic by Silvia Moreno-Garcia\n\nThe Haunting of Hill House by Shirley Jackson\n\nBird Box by Josh Malerman\n\nDracula by Bram Stoker"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_5_1752147294832",
+        "previous_sibling": "node_10_1752147197932"
+      },
+      {
+        "type": "standard",
+        "title": "Fiction",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Fiction – a world where imagination meets reality! ✨ Whether you're into character-driven stories or sweeping narratives, here are some must-read fiction titles:\"\n\nThe Night Circus by Erin Morgenstern\n\nWhere the Crawdads Sing by Delia Owens\n\nThe Midnight Library by Matt Haig\n\nEleanor Oliphant Is Completely Fine by Gail Honeyman\n\nThe Goldfinch by Donna Tartt"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_5_1752147369448",
+        "previous_sibling": "node_5_1752147294832"
+      },
+      {
+        "type": "standard",
+        "title": "Non fiction",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Great choice! 📚 Non-fiction opens the door to real stories, big ideas, and powerful insights. Here are some top non-fiction reads you might enjoy:\"\n\nSapiens by Yuval Noah Harari\n\nAtomic Habits by James Clear\n\nEducated by Tara Westover\n\nThinking, Fast and Slow by Daniel Kahneman\n\nBecoming by Michelle Obama\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_5_1752147465078",
+        "previous_sibling": "node_5_1752147369448"
+      },
+      {
+        "type": "standard",
+        "title": "Uplifting",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Feel-Good Fiction\nLighthearted stories with emotional warmth, happy endings, or lovable characters.\nExamples:\n\nEleanor Oliphant Is Completely Fine by Gail Honeyman\n\nThe House in the Cerulean Sea by TJ Klune\n\nA Man Called Ove by Fredrik Backman"
+                },
+                {
+                  "text": "Spiritual & Philosophical Upliftment\nBooks that inspire inner peace and meaning.\nExamples:\n\nThe Alchemist by Paulo Coelho\n\nThe Monk Who Sold His Ferrari by Robin Sharma"
+                },
+                {
+                  "text": "Inspirational Non-Fiction / Memoirs\nTrue stories or advice that uplift and motivate.\nExamples:\n\nTuesdays with Morrie by Mitch Albom\n\nThe Last Lecture by Randy Pausch\n\nBecoming by Michelle Obama"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1752148848895",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@Mood",
+        "dialog_node": "node_5_1752149182355",
+        "previous_sibling": "node_3_1752149163709"
+      },
+      {
+        "type": "standard",
+        "title": "Fantasy",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Ah, fantasy! 🐉✨ Get ready to enter magical realms, epic battles, and mythical creatures. Here are some top fantasy picks for you:\"\n(followed by a list of fantasy book recommendations, e.g.,)\n\nThe Name of the Wind by Patrick Rothfuss\n\nMistborn by Brandon Sanderson\n\nA Court of Thorns and Roses by Sarah J. Maas\n\nThe Hobbit by J.R.R. Tolkien\n\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_6_1752146764953"
+      },
+      {
+        "type": "standard",
+        "title": "#Greeting",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Hey there! 👋 I'm BookBuddy—your personal book companion. What kind of story are you looking for today?\""
+                },
+                {
+                  "text": "\"Hello! 😊 Ready to dive into your next great read? Tell me what you're in the mood for!\""
+                },
+                {
+                  "text": "\"Hi! I'm here to help you find the perfect book. Just let me know your favorite genre, author, or mood!\""
+                },
+                {
+                  "text": "\"Welcome to BookBuddy! 📚 Whether you're into thrillers, romance, or self-help, I've got something for you.\""
+                },
+                {
+                  "text": "\"Hey! Let's find your next favorite book. What do you feel like reading today?\"\n\n"
+                },
+                {
+                  "text": "hello! how can i help you"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "#Greeting",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_7_1752146491147"
+      },
+      {
+        "type": "standard",
+        "title": "crime",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Crime fiction coming right up! 🔍 If you enjoy clever plots, criminal minds, and justice served (or not!), here are some gripping crime novels you might enjoy:\"\n\nThe Girl with the Dragon Tattoo by Stieg Larsson\n\nThe Reversal by Michael Connelly\n\nIn the Woods by Tana French\n\nThe Cuckoo’s Calling by Robert Galbraith\n\nBefore I Go to Sleep by S.J. Watson"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1752146732986",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@gener",
+        "dialog_node": "node_7_1752147725359",
+        "previous_sibling": "node_3_1752147609143"
+      },
+      {
+        "type": "standard",
+        "title": "#Feedback",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"I'm so glad you liked it! 😊 Let me know if you'd like more suggestions.\""
+                },
+                {
+                  "text": "Awesome! That makes me happy to hear. 📚 Ready for another great read?\""
+                },
+                {
+                  "text": "Thank you! Your feedback means a lot. ❤️ Want more like that one?\""
+                },
+                {
+                  "text": "Great to hear! I'm here whenever you're ready for your next adventure in reading.\""
+                },
+                {
+                  "text": "\"I’m sorry that book didn’t meet your expectations. Want me to suggest something different?\""
+                },
+                {
+                  "text": "Sorry it wasn’t a good fit. Want a recommendation that’s more exciting/emotional/light/etc.?\""
+                },
+                {
+                  "text": "\"Appreciate the feedback! 📚 Let’s fine-tune your next pick—what are you in the mood for now?\""
+                },
+                {
+                  "text": "Thanks for the honest feedback! Let’s try something more your style—any specific genre or mood in mind?\""
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "#Feedback",
+        "dialog_node": "node_7_1752149795494",
+        "previous_sibling": "node_4_1752148848895"
+      },
+      {
+        "type": "standard",
+        "title": "#negative feedback",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"I’m sorry that book didn’t meet your expectations. Want me to suggest something different?\""
+                },
+                {
+                  "text": "\"Thanks for the honest feedback! Let’s try something more your style—any specific genre or mood in mind?\""
+                },
+                {
+                  "text": "\"Oops! That one missed the mark. 😅 I’ll do better—what didn’t you like about it?\""
+                },
+                {
+                  "text": "\"Not every book’s a hit—I get it. Let me find you a better match!\""
+                },
+                {
+                  "text": "\"Sorry it wasn’t a good fit. Want a recommendation that’s more exciting/emotional/light/etc.?\""
+                },
+                {
+                  "text": "\"Appreciate the feedback! 📚 Let’s fine-tune your next pick—what are you in the mood for now?\""
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1752149795494",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "#Feedback",
+        "dialog_node": "node_7_1752150037695",
+        "previous_sibling": "node_4_1752149888710"
+      },
+      {
+        "type": "standard",
+        "title": "@Genre",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "\"Love is in the air! 💖 If you're in the mood for heart-fluttering stories and emotional rollercoasters, here are some popular romance picks just for you:\"\n(followed by a list of romance book recommendations, e.g.,)\n\n->It Ends with Us by Colleen Hoover\n\n->The Love Hypothesis by Ali Hazelwood\n\n->Me Before You by Jojo Moyes\n\n->The Fault in Our Stars by John Green\n\n->Beach Read by Emily Henry"
+                },
+                {
+                  "text": "\"Ah, fantasy! 🐉✨ Get ready to enter magical realms, epic battles, and mythical creatures. Here are some top fantasy picks for you:\"\n(followed by a list of fantasy book recommendations, e.g.,)\n\nThe Name of the Wind by Patrick Rothfuss\n\nMistborn by Brandon Sanderson\n\nA Court of Thorns and Roses by Sarah J. Maas\n\nThe Hobbit by J.R.R. Tolkien\n\n"
+                },
+                {
+                  "text": "\"Mystery, eh? 🕵️ Get ready for suspense, secrets, and shocking twists! Here are some gripping mystery novels you might enjoy:\"\n\n->Gone Girl by Gillian Flynn\n\n->The Girl with the Dragon Tattoo by Stieg Larsson\n\n->The Da Vinci Code by Dan Brown\n\n->Big Little Lies by Liane Moriarty\n"
+                },
+                {
+                  "text": "\"Drama it is! 🎭 Get ready for powerful emotions, deep characters, and gripping life stories. Here are some dramatic reads you might enjoy:\"\n\nA Thousand Splendid Suns by Khaled Hosseini\n\nThe Kite Runner by Khaled Hosseini\n\nThe Fault in Our Stars by John Green\n\nLittle Fires Everywhere by Celeste Ng\n\nNormal People by Sally Rooney\n"
+                },
+                {
+                  "text": "\"Brace yourself! 😱 You’ve entered the world of chills, thrills, and nightmares. Here are some top horror books that’ll keep you up at night:\"\n\nThe Shining by Stephen King\n\nMexican Gothic by Silvia Moreno-Garcia\n\nThe Haunting of Hill House by Shirley Jackson\n\nBird Box by Josh Malerman\n\nDracula by Bram Stoker"
+                },
+                {
+                  "text": "\"Fiction – a world where imagination meets reality! ✨ Whether you're into character-driven stories or sweeping narratives, here are some must-read fiction titles:\"\n\nThe Night Circus by Erin Morgenstern\n\nWhere the Crawdads Sing by Delia Owens\n\nThe Midnight Library by Matt Haig\n\nEleanor Oliphant Is Completely Fine by Gail Honeyman\n\nThe Goldfinch by Donna Tartt"
+                },
+                {
+                  "text": "Great choice! 📚 Non-fiction opens the door to real stories, big ideas, and powerful insights. Here are some top non-fiction reads you might enjoy:\"\n\nSapiens by Yuval Noah Harari\n\nAtomic Habits by James Clear\n\nEducated by Tara Westover\n\nThinking, Fast and Slow by Daniel Kahneman\n\nBecoming by Michelle Obama\n\n"
+                },
+                {
+                  "text": "\"Looking for some laughs? 😄 Comedy books are a perfect way to lift your mood! Here are some hilarious reads to brighten your day:\"\n\nGood Omens by Neil Gaiman & Terry Pratchett\n\nBossypants by Tina Fey\n\nThe Rosie Project by Graeme Simsion\n\nCatch-22 by Joseph Heller\n\nMe Talk Pretty One Day by David Sedaris\n"
+                },
+                {
+                  "text": "Classic Crime Novels\n->The Maltese Falcon – Dashiell Hammett\n\n->The Hound of the Baskervilles – Arthur Conan Doyle\n\n->And Then There Were None – Agatha Christie"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@genre",
+        "dialog_node": "node_8_1752146732986",
+        "previous_sibling": "node_7_1752146491147"
+      },
+      {
+        "type": "standard",
+        "title": "sad",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Heartwarming & Uplifting Stories\nBooks that bring hope, comfort, and emotional warmth.\nExamples:\n\nThe Boy, the Mole, the Fox and the Horse by Charlie Mackesy\n\nThe Midnight Library by Matt Haig\n\nTuesdays with Morrie by Mitch Albom\n\nEleanor Oliphant Is Completely Fine by Gail Honeyman"
+                },
+                {
+                  "text": "Emotional Fiction (Bittersweet)\nStories that reflect on grief, love, loss, or growth—perfect for emotional release.\nExamples:\n\nA Man Called Ove by Fredrik Backman\n\nThe Fault in Our Stars by John Green\n\nThe Book Thief by Markus Zusak\n\nMe Before You by Jojo Moyes"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1752148848895",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@Mood",
+        "dialog_node": "node_8_1752149212735",
+        "previous_sibling": "node_5_1752149182355"
+      },
+      {
+        "type": "standard",
+        "title": "Chilling",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Horror Fiction\nStories with supernatural elements, fear, and psychological terror.\nExamples:\n\nThe Shining by Stephen King\n\nMexican Gothic by Silvia Moreno-Garcia\n\nThe Haunting of Hill House by Shirley Jackson"
+                },
+                {
+                  "text": "upernatural Suspense\nChilling tales with ghostly or paranormal elements.\nExamples:\n\nThe Turn of the Screw by Henry James\n\nLock Every Door by Riley Sager"
+                },
+                {
+                  "text": "Dark Mystery or Crime\nCrime stories with a grim or eerie tone.\nExamples:\n\nIn the Woods by Tana French\n\nThe Girl with the Dragon Tattoo by Stieg Larsson\n\nBefore I Go to Sleep by S.J. Watson"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1752148848895",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@Mood",
+        "dialog_node": "node_9_1752149018185"
+      },
+      {
+        "type": "standard",
+        "title": "Motivational",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "💪 Types of Books to Suggest for a Motivational Mood:\nSelf-Help & Personal Development\nPractical and mindset-changing books that boost motivation and confidence.\nExamples:\n\nAtomic Habits by James Clear\n\nThe 7 Habits of Highly Effective People by Stephen R. Covey\n\nYou Are a Badass by Jen Sincero"
+                },
+                {
+                  "text": "Biographies & Memoirs of Inspiring People\nReal-life journeys of people who overcame challenges or achieved greatness.\nExamples:\n\nBecoming by Michelle Obama\n\nCan't Hurt Me by David Goggins\n\nLong Walk to Freedom by Nelson Mandela"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1752148848895",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "@Mood",
+        "dialog_node": "node_9_1752149261214",
+        "previous_sibling": "node_10_1752149230413"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello. How can I help you?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z",
+        "conditions": "welcome",
+        "dialog_node": "Welcome",
+        "previous_sibling": "node_3_1753170073612"
+      }
+    ],
+    "counterexamples": [
+      {
+        "text": "fabulous",
+        "created": "2025-07-23T15:37:19.494Z",
+        "updated": "2025-07-23T15:37:19.494Z"
+      }
+    ],
+    "learning_opt_out": false
+  },
+  "description": "Initial chatbot implementation",
+  "assistant_id": "1e72c77d-59ef-46a0-888a-d7c66fe9b60e",
+  "dialog_settings": {
+    "source_assistant": "09dddca7-bd68-4a2e-a903-c019054ad288"
+  },
+  "assistant_references": [
+    {
+      "name": "BookBuddy",
+      "assistant_id": "09dddca7-bd68-4a2e-a903-c019054ad288",
+      "skill_reference": "main skill"
+    }
+  ]
+}
