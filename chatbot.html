@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      
+      background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f');
+
+     
+      background-size: cover;       
+      background-repeat: no-repeat; 
+      background-position: center;  
+      height: 100vh;              
+      margin: 0;                    
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      padding-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "59e45039-bfaa-4f3a-9001-4de6c8148565", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "a3e8d98c-3b27-45c9-b421-69c0685e34a3", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
